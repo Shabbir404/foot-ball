@@ -82,30 +82,26 @@ body{
      -----------------                                    -------------------    */
     
     .Top-Players{
-    
-display: grid;
-    
-grid-template-columns: repeat(3,1fr);
-    
-padding-left: 176px;
-    
-padding-right: 410px;
-    
-margin-right: 27px;
-    
-grid-row-gap: 20px;
-    
-margin-bottom: 124px;
-    }
+                        
+                    display: grid;
+                        
+                    grid-template-columns: repeat(3,1fr);
+                        
+                    padding-left: 110px;
+                        
+                    padding-right: 410px;
+                        
+                    margin-right: 27px;
+                        
+                    grid-row-gap: 20px;
+                        
+                    margin-bottom: 124px;
+                        }
     
      .Player{
         box-shadow: 2px 2px 21px rgb(0 0 0 / 15%);
         width: 311px;
-        /* margin: 10px; */
-        /* margin-left: 116px; */
-        /* padding: initial; */
-        /* padding-left: 120px; */
-        margin-left: 100px;
+       margin-left: 100px;
         height: 426px;
         margin-top: 60px;
      }
@@ -145,7 +141,173 @@ height: 107px;
 color: #7E7E7E;
 font-weight: 400;
     }
+
+
+
+    /*----------------------------------------------------- 
+    footer-Bio ------------------------------------------------------
+     ----------------------------------------------------------------------------*/
+
+    .Detels {
+
+        width: 567px;
+        height: 337px;
+        padding-left: 190px;
+        margin-bottom: 100px;
+
+    }
+    .Detels h1{
+font-size: 58px;
+
+    }
+
     
-     
+/* --------------------------------------------------------Fotter_Bio -------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------*/
+.bottom-logo{
+
+display: flex;
+
+}
     
-    
+.match-picture img{
+    width: 438px;
+    height: 334px;
+    padding-left: 155px;
+    margin-top: 90px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra-sectiom */
+section.extra {
+    background: red;
+    margin-top: 70px;
+    margin-right: 210px;
+    margin-left: 190px;
+}
+
+.extention {
+    display: flex;
+    color: rgb(255, 235, 197);
+}
+
+h1#Ticket-Id {
+    padding-left: 22px;
+}
+h1#buying-ticket {
+    padding-left: 127px;
+}
+
+h1#ticket-time {
+    padding-left: 125px;
+}
+
+
+
+button#counter{
+
+
+
+
+
+margin-left: 1037px;
+
+padding-top: 14px;
+padding-bottom: 14px;
+background: antiquewhite;
+border-color: white;
+border-radius: 30px;
+color: black;
+font-size: 12px;
+font-weight: 600;
+margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*((((((((((((((((((((((((((---------------------- Fotter-Section-------------------------)))))))))))))))))))))))))
+------------------------------------------------------------------------------------------------------------------- */
+.Disp-Flex-fot{
+
+    display: flex;
+    padding-left: 430px;
+    margin-top: 80px;
+    margin-bottom: -30px;
+
+}
+
+.Fotter-logo {
+
+
+}
+
+.Fotter-logo img{
+
+    height: 99px;
+    width: 299px;
+    margin-top: 31px;
+
+
+}
+.Football h2{
+    font-family: 'Niconne', cursive;
+    color: #10437A;
+  
+    font-size: 63px;
+    font-style: italic;
+    font-weight: 400;
+}
+.conntact-Icon{
+
+
+    text-align: center;
+  
+    margin-right: 130px
+}
+
+
+.fab, .far {
+    font-weight: 200;
+    font-size: 21px;
+    padding-left: 13px;
+    padding-right: 12px;
+    margin-top: 10px;
+    color: #969BAB;
+    background-color: #E7E7E8;
+   
+    border-radius: 50%;
+    height: 30px;
+    width: 22px;
+    margin: 6px;
+    padding-bottom: 5px;
+    padding-top: 13px;
+}
